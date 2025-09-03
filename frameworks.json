@@ -1,0 +1,50 @@
+{
+  "default": "NIST",
+  "frameworks": {
+    "NIST": {
+      "min_length": 8,
+      "require_lower": true,
+      "require_upper": true,
+      "require_digits": true,
+      "require_symbols": false,
+      "min_entropy": 40,
+      "desc": "Example NIST-like: 8+, upper/lower/digit, >=40 bits"
+    },
+    "HIPAA": {
+      "min_length": 8,
+      "require_lower": true,
+      "require_upper": true,
+      "require_digits": true,
+      "require_symbols": true,
+      "min_entropy": 50,
+      "desc": "HIPAA-like: 8+, upper/lower/digit/symbol, >=50 bits"
+    },
+    "Simple": {
+      "min_length": 6,
+      "require_lower": false,
+      "require_upper": false,
+      "require_digits": false,
+      "require_symbols": false,
+      "min_entropy": 0,
+      "desc": "Simple: 6+ chars, no other constraints"
+    },
+    "PCI_DSS": {
+      "min_length": 12,
+      "require_lower": true,
+      "require_upper": true,
+      "require_digits": true,
+      "require_symbols": true,
+      "min_entropy": 60,
+      "desc": "PCI-like: 12+, all classes, >=60 bits"
+    },
+    "Enterprise_Strict": {
+      "min_length": 14,
+      "require_lower": true,
+      "require_upper": true,
+      "require_digits": true,
+      "require_symbols": true,
+      "min_entropy": 70,
+      "desc": "Strict: 14+, all classes, >=70 bits"
+    }
+  }
+}
