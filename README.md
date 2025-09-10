@@ -15,6 +15,10 @@ Features:
 - Policy compliance with per-requirement breakdown  
 
 ---
+## Screenshot
+
+![Screenshot of my PassStrength](images/screenshot.png)
+
 
 ## Run
 
