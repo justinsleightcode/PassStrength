@@ -17,7 +17,7 @@ Features:
 ---
 ## Screenshot
 
-![Screenshot of my PassStrength](images/screenshot.png)
+![Screenshot of my PassStrength](images/screeenshot.png)
 
 
 ## Run
